@@ -1,0 +1,43 @@
+*{
+    font-family: Didot, serif;
+}
+h1, h3{
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+
+th {
+  text-align: center;  
+  vertical-align: middle;
+  font-weight: bold;
+  background-color: midnightblue;
+  color: whitesmoke;
+}
+td {
+    text-align: center;
+}
+table{
+    text-align: center;
+    border: 3px solid rgb(143, 163, 201);
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    
+}
+td,th { 
+    border: 2px solid rgb(127, 149, 190);
+}
+
+.Norte, .Centro-Oeste, .Sul{
+    background-color:rgb(171, 228, 171);
+}
+.Nordeste, .Sudeste{
+    background-color: rgb(128, 220, 250);
+}
+td:hover{
+    background-color: rgb(248, 226, 98);
+}
